@@ -3,46 +3,7 @@
 import Link from "next/link"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-
-// Service data (simplified version)
-const services = [
-  {
-    id: "custom-app-development",
-    title: "Custom App Development",
-    shortDescription: "Tailored React Native solutions for your unique business needs.",
-    icon: "📱",
-  },
-  {
-    id: "app-optimization",
-    title: "App Optimization",
-    shortDescription: "Enhance performance and user experience of your existing apps.",
-    icon: "🚀",
-  },
-  {
-    id: "consulting-strategy",
-    title: "Consulting & Strategy",
-    shortDescription: "Expert advice on React Native implementation and best practices.",
-    icon: "💡",
-  },
-  {
-    id: "ui-ux-design",
-    title: "UI/UX Design",
-    shortDescription: "Create beautiful, intuitive interfaces that users love.",
-    icon: "🎨",
-  },
-  {
-    id: "cross-platform-development",
-    title: "Cross-Platform Development",
-    shortDescription: "Build once, deploy everywhere with React Native.",
-    icon: "🔄",
-  },
-  {
-    id: "maintenance-support",
-    title: "Maintenance & Support",
-    shortDescription: "Ongoing support to keep your app running smoothly.",
-    icon: "🛠️",
-  },
-]
+import { services } from "@/lib/data"
 
 type RelatedServicesProps = {
   currentServiceId: string

@@ -1,3 +1,4 @@
+// Case Studies Data
 export const caseStudies = [
   {
     id: "e-commerce-app-redesign",

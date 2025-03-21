@@ -1,7 +1,7 @@
 import CaseStudiesHero from "@/components/case-studies/CaseStudiesHero"
 import CaseStudiesList from "@/components/case-studies/CaseStudiesList"
 import CaseStudiesFilter from "@/components/case-studies/CaseStudiesFilter"
-import CTASection from "@/components/CTASection"
+import CTASection from "@/components/common/CTASection"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {

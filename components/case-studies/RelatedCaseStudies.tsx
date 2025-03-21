@@ -4,50 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-
-// Case studies data (simplified version)
-const caseStudies = [
-  {
-    id: "e-commerce-app-redesign",
-    title: "E-commerce App Redesign",
-    shortDescription:
-      "Increased conversions by 40% through UX improvements and performance optimization for a leading online retailer.",
-    category: "e-commerce",
-    image: "/placeholder.svg?height=600&width=800",
-    client: "Global Retail Inc.",
-    year: "2023",
-  },
-  {
-    id: "social-media-integration",
-    title: "Social Media Integration",
-    shortDescription:
-      "Boosted user engagement by 75% with seamless sharing features and real-time notifications for a community platform.",
-    category: "social",
-    image: "/placeholder.svg?height=600&width=800",
-    client: "ConnectHub",
-    year: "2022",
-  },
-  {
-    id: "healthcare-mobile-app",
-    title: "Healthcare Mobile App",
-    shortDescription:
-      "Developed a HIPAA-compliant telehealth solution that improved patient satisfaction scores by 60%.",
-    category: "healthcare",
-    image: "/placeholder.svg?height=600&width=800",
-    client: "MediCare Solutions",
-    year: "2023",
-  },
-  {
-    id: "fintech-wallet-app",
-    title: "Fintech Wallet App",
-    shortDescription:
-      "Created a secure and user-friendly mobile wallet that processed over $10M in transactions within the first quarter.",
-    category: "fintech",
-    image: "/placeholder.svg?height=600&width=800",
-    client: "PayEase",
-    year: "2022",
-  },
-]
+import { caseStudies } from "@/lib/data"
 
 type RelatedCaseStudiesProps = {
   currentCaseStudyId: string

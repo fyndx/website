@@ -3,7 +3,7 @@ import Mission from "@/components/about/Mission"
 import Values from "@/components/about/Values"
 import Team from "@/components/about/Team"
 import Timeline from "@/components/about/Timeline"
-import CTASection from "@/components/CTASection"
+import CTASection from "@/components/common/CTASection"
 
 export const metadata = {
   title: "About Us | Fyndx - React Native Experts",

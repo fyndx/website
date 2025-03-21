@@ -1,8 +1,8 @@
-import Hero from "@/components/Hero"
-import Services from "@/components/Services"
-import Testimonials from "@/components/Testimonials"
-import CaseStudies from "@/components/CaseStudies"
-import CTASection from "@/components/CTASection"
+import Hero from "@/components/home/Hero"
+import Services from "@/components/home/Services"
+import Testimonials from "@/components/home/Testimonials"
+import CaseStudies from "@/components/home/CaseStudies"
+import CTASection from "@/components/common/CTASection"
 
 export default function Home() {
   return (
