@@ -10,7 +10,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Fyndx - React Native Experts",
   description: "Find expert React Native consultants for your business needs",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -29,6 +28,3 @@ export default function RootLayout({
   )
 }
 
-
-
-import './globals.css'

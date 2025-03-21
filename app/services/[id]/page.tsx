@@ -353,6 +353,16 @@ const services = [
   },
 ]
 
+// Add this function to generate static parameters for all services
+export async function generateStaticParams() {
+  // In a real application, you might fetch this data from an API or CMS
+  // For this example, we're using the hardcoded services array
+
+  return services.map((service) => ({
+    id: service.id,
+  }))
+}
+
 type Props = {
   params: { id: string }
 }
