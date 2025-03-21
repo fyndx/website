@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import { Menu, X, ArrowUpRight } from "lucide-react"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -53,15 +53,20 @@ export default function Header() {
                 Services
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/case-studies" className="text-gray-800 font-medium hover:text-primary transition-colors">
                 Case Studies
               </Link>
-            </li>
+            </li> */}
             <li>
-              <Link href="/blog" className="text-gray-800 font-medium hover:text-primary transition-colors">
-                Blog
-              </Link>
+              <a 
+                href="https://notes.fyndx.io" 
+                className="text-gray-800 font-medium hover:text-primary transition-colors inline-flex items-center gap-1 group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blog <ArrowUpRight size={16} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+              </a>
             </li>
             <li>
               <Link href="/contact" className="text-gray-800 font-medium hover:text-primary transition-colors">
@@ -71,12 +76,12 @@ export default function Header() {
           </ul>
         </nav>
 
-        <div className="hidden md:block">
+        {/* <div className="hidden md:block">
           <Button className="bg-primary text-white hover:bg-primary-dark">Get Started</Button>
-        </div>
+        </div> */}
 
         {/* Mobile Menu Button */}
-        <button className="md:hidden text-gray-800 focus:outline-none" onClick={toggleMenu} aria-label="Toggle menu">
+        <button type="button" className="md:hidden text-gray-800 focus:outline-none" onClick={toggleMenu} aria-label="Toggle menu">
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
@@ -104,7 +109,7 @@ export default function Header() {
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/case-studies"
                   className="block py-2 text-gray-800 font-medium hover:text-primary transition-colors"
@@ -112,15 +117,17 @@ export default function Header() {
                 >
                   Case Studies
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link
-                  href="/blog"
-                  className="block py-2 text-gray-800 font-medium hover:text-primary transition-colors"
+                <a
+                  href="https://notes.fyndx.io"
+                  className="block py-2 text-gray-800 font-medium hover:text-primary transition-colors inline-flex items-center gap-1 group"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={toggleMenu}
                 >
-                  Blog
-                </Link>
+                  Blog <ArrowUpRight size={16} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+                </a>
               </li>
               <li>
                 <Link
@@ -131,9 +138,9 @@ export default function Header() {
                   Contact
                 </Link>
               </li>
-              <li className="pt-2">
+              {/* <li className="pt-2">
                 <Button className="w-full bg-primary text-white hover:bg-primary-dark">Get Started</Button>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
@@ -141,4 +148,3 @@ export default function Header() {
     </header>
   )
 }
-

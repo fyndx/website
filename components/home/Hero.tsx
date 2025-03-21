@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 import { motion } from "framer-motion"
 
 export default function Hero() {
@@ -157,18 +158,13 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <Button size="lg" className="bg-white text-primary hover:bg-gray-100 w-full sm:w-auto">
-            Get a Free Consultation
-          </Button>
-          <Button
-            size="lg"
-            className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary w-full sm:w-auto"
-          >
-            Learn More
-          </Button>
+          <Link href="https://cal.com/fyndx/free-consultation" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-white text-primary hover:bg-gray-100 w-full sm:w-auto">
+              Get a Free Consultation
+            </Button>
+          </Link>
         </motion.div>
       </div>
     </section>
   )
 }
-

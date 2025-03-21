@@ -13,7 +13,7 @@ export default function ContactInfo() {
           <Mail className="w-5 h-5 text-primary mt-1 mr-3" />
           <div>
             <h3 className="font-medium text-gray-900">Email</h3>
-            <p className="text-gray-600">info@fyndx.com</p>
+            <p className="text-gray-600">hello@fyndx.io</p>
           </div>
         </div>
 
@@ -21,7 +21,9 @@ export default function ContactInfo() {
           <Phone className="w-5 h-5 text-primary mt-1 mr-3" />
           <div>
             <h3 className="font-medium text-gray-900">Phone</h3>
-            <p className="text-gray-600">(123) 456-7890</p>
+            <p className="text-gray-600">
+              <a href="tel:+918341366388" className="hover:underline">8341 366 388</a>
+            </p>
           </div>
         </div>
 
@@ -29,7 +31,10 @@ export default function ContactInfo() {
           <MapPin className="w-5 h-5 text-primary mt-1 mr-3" />
           <div>
             <h3 className="font-medium text-gray-900">Address</h3>
-            <p className="text-gray-600">123 React St, Native City, 12345</p>
+            <p className="text-gray-600">7/47, Main Road, Duvvur,</p>
+            <p className="text-gray-600">Kadapa District,</p>
+            <p className="text-gray-600">Andhra Pradesh, India</p>
+            <p className="text-gray-600">Pin: 516175</p>
           </div>
         </div>
 
