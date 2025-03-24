@@ -16,8 +16,8 @@ export default function AboutPage() {
       <AboutHero />
       <Mission />
       <Values />
-      <Team />
-      <Timeline />
+      {/* <Team /> */}
+      {/* <Timeline /> */}
       <CTASection />
     </>
   )
