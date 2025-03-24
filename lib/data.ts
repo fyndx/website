@@ -213,7 +213,7 @@ export const services = [
     description:
       "Our custom app development service delivers tailor-made React Native applications designed specifically for your business requirements. We follow a collaborative approach, working closely with you from concept to deployment to ensure your vision becomes reality.",
     icon: "📱",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/assets/images/custom-app-development.jpg?height=600&width=800",
     benefits: [
       "Fully customized solutions that align with your business goals",
       "Scalable architecture that grows with your business",
@@ -273,7 +273,7 @@ export const services = [
     description:
       "Our app optimization service focuses on improving your application's performance, load times, and overall user experience. We use industry best practices and advanced techniques to ensure your app runs smoothly and efficiently across all devices.",
     icon: "⚡",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/assets/images/app-optimization.png?height=600&width=800",
     benefits: [
       "Faster load times and improved responsiveness",
       "Reduced app size and memory usage",
@@ -329,7 +329,7 @@ export const services = [
     description:
       "Our consulting and strategy service provides expert guidance to help you make informed decisions about your mobile app development journey. We analyze your business needs, market conditions, and technical requirements to create a comprehensive roadmap for success.",
     icon: "💡",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/assets/images/consulting-and-strategy.png?height=600&width=800",
     benefits: [
       "Expert insights into mobile app development",
       "Data-driven decision making",
@@ -385,7 +385,7 @@ export const services = [
     description:
       "Our UI/UX design service focuses on creating beautiful, intuitive interfaces that delight users while achieving your business goals. We combine aesthetic appeal with functional design to deliver exceptional user experiences that drive engagement and retention.",
     icon: "🎨",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/assets/images/ui-ux-design.png?height=600&width=800",
     benefits: [
       "Intuitive and user-friendly interfaces",
       "Increased user engagement and retention",
@@ -441,7 +441,7 @@ export const services = [
     description:
       "Our maintenance and support service ensures your application continues to perform optimally after launch. We provide regular updates, bug fixes, and technical support to keep your app secure, stable, and up-to-date with the latest platform changes.",
     icon: "🛠️",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/assets/images/maintainance-and-support-mobile-app.png?height=600&width=800",
     benefits: [
       "Regular updates and security patches",
       "Proactive performance monitoring",
@@ -497,7 +497,7 @@ export const services = [
     description:
       "Our cross-platform development service enables you to reach users across multiple platforms with a single codebase. Using React Native, we create high-quality applications that maintain native performance and feel while reducing development time and costs.",
     icon: "🔄",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/assets/images/Cross-platform-mobile-app-development.webp?height=600&width=800",
     benefits: [
       "Single codebase for iOS and Android",
       "Faster time-to-market",
