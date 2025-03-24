@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
+import Link from "next/link"
 
 export default function CTASection() {
   return (
@@ -38,15 +39,17 @@ export default function CTASection() {
               Get in touch with our experts and start building amazing apps today.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button size="lg" className="bg-white text-primary hover:bg-gray-100 hover:text-primary-dark font-medium">
-                Get a Free Consultation
-              </Button>
-              <Button
+              <Link href="https://cal.com/fyndx/free-consultation" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-white text-primary hover:bg-gray-100 hover:text-primary-dark font-medium">
+                  Get a Free Consultation
+                </Button>
+              </Link>
+              {/* <Button
                 size="lg"
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary font-medium"
               >
                 View Our Portfolio
-              </Button>
+              </Button> */}
             </div>
           </motion.div>
         </div>

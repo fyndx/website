@@ -16,13 +16,13 @@ export default function Mission() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/assets/images/about-us.jpg"
                 alt="Our mission"
                 width={800}
                 height={600}
                 className="w-full h-auto object-cover"
               />
-              <div className="absolute inset-0 bg-primary bg-opacity-20"></div>
+              <div className="absolute inset-0 bg-primary bg-opacity-20" />
             </div>
           </motion.div>
 
@@ -33,7 +33,7 @@ export default function Mission() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">Our Mission</h2>
-            <div className="w-20 h-1 bg-primary rounded-full mb-8"></div>
+            <div className="w-20 h-1 bg-primary rounded-full mb-8" />
             <p className="text-lg text-gray-700 mb-6">
               At Fyndx, our mission is to empower businesses with cutting-edge React Native solutions that bridge the
               gap between vision and reality. We believe that exceptional mobile experiences should be accessible to
@@ -54,4 +54,3 @@ export default function Mission() {
     </section>
   )
 }
-

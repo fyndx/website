@@ -31,7 +31,7 @@ export default function AboutHero() {
         <div className="max-w-4xl mx-auto text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">
-              About <span className="text-primary">Fyndx</span>
+              About <span className="text-primary">FyndX</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               We're a team of passionate React Native experts dedicated to transforming ideas into exceptional mobile
@@ -52,7 +52,7 @@ export default function AboutHero() {
             transition={{ delay: 0.5, duration: 0.5 }}
             className="text-lg text-gray-700 max-w-3xl mx-auto"
           >
-            Founded in 2018, Fyndx has grown from a small team of developers to a leading consultancy specializing in
+            Founded in 2018, FyndX has grown from a small team of developers to a leading consultancy specializing in
             React Native development. We've helped businesses of all sizes build powerful, user-friendly mobile
             applications that drive growth and deliver exceptional user experiences.
           </motion.p>
