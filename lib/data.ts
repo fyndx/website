@@ -220,20 +220,20 @@ export const services = [
       "Cross-platform compatibility for iOS and Android",
       "Optimized performance and user experience",
     ],
-    pricing: {
-      starter: {
-        price: "$10,000+",
-        description: "Basic app with essential features",
-      },
-      professional: {
-        price: "$25,000+",
-        description: "Advanced app with custom features and integrations",
-      },
-      enterprise: {
-        price: "Custom",
-        description: "Complex enterprise solutions with advanced requirements",
-      },
-    },
+    // pricing: {
+    //   starter: {
+    //     price: "$10,000+",
+    //     description: "Basic app with essential features",
+    //   },
+    //   professional: {
+    //     price: "$25,000+",
+    //     description: "Advanced app with custom features and integrations",
+    //   },
+    //   enterprise: {
+    //     price: "Custom",
+    //     description: "Complex enterprise solutions with advanced requirements",
+    //   },
+    // },
     featured: true,
     process: [
       {
@@ -266,6 +266,116 @@ export const services = [
       },
     ],
   },
-  // ... other services (omitted for brevity)
+  {
+    id: "app-optimization",
+    title: "App Optimization",
+    shortDescription: "Enhance your app's performance, speed, and user experience.",
+    description:
+      "Our app optimization service focuses on improving your application's performance, load times, and overall user experience. We use industry best practices and advanced techniques to ensure your app runs smoothly and efficiently across all devices.",
+    icon: "⚡",
+    image: "/placeholder.svg?height=600&width=800",
+    benefits: [
+      "Faster load times and improved responsiveness",
+      "Reduced app size and memory usage",
+      "Better battery efficiency",
+      "Enhanced user experience and satisfaction",
+    ],
+    // pricing: {
+    //   starter: {
+    //     price: "$5,000+",
+    //     description: "Basic performance audit and optimization",
+    //   },
+    //   professional: {
+    //     price: "$12,000+",
+    //     description: "Comprehensive optimization with advanced techniques",
+    //   },
+    //   enterprise: {
+    //     price: "Custom",
+    //     description: "Full-scale optimization for complex applications",
+    //   },
+    // },
+    featured: true,
+    process: [
+      {
+        title: "Performance Audit",
+        description: "We analyze your app's current performance metrics and identify areas for improvement.",
+      },
+      {
+        title: "Optimization Strategy",
+        description: "We develop a tailored optimization plan based on audit findings and your specific needs.",
+      },
+      {
+        title: "Implementation",
+        description: "Our team implements various optimization techniques to enhance app performance.",
+      },
+      {
+        title: "Testing & Verification",
+        description: "We conduct thorough testing to measure improvements and ensure stability.",
+      },
+      {
+        title: "Monitoring",
+        description: "We set up performance monitoring tools to track long-term performance metrics.",
+      },
+      {
+        title: "Documentation & Training",
+        description: "We provide documentation and training for maintaining optimal app performance.",
+      },
+    ],
+  },
+  {
+    id: "cross-platform-development",
+    title: "Cross Platform Development",
+    shortDescription: "Build once, deploy everywhere with React Native.",
+    description:
+      "Our cross-platform development service enables you to reach users across multiple platforms with a single codebase. Using React Native, we create high-quality applications that maintain native performance and feel while reducing development time and costs.",
+    icon: "🔄",
+    image: "/placeholder.svg?height=600&width=800",
+    benefits: [
+      "Single codebase for iOS and Android",
+      "Faster time-to-market",
+      "Reduced development and maintenance costs",
+      "Consistent user experience across platforms",
+    ],
+    // pricing: {
+    //   starter: {
+    //     price: "$15,000+",
+    //     description: "Basic cross-platform app with core features",
+    //   },
+    //   professional: {
+    //     price: "$30,000+",
+    //     description: "Advanced cross-platform app with custom features",
+    //   },
+    //   enterprise: {
+    //     price: "Custom",
+    //     description: "Enterprise-grade cross-platform solutions",
+    //   },
+    // },
+    featured: true,
+    process: [
+      {
+        title: "Requirements Analysis",
+        description: "We analyze your needs to ensure optimal cross-platform implementation.",
+      },
+      {
+        title: "Architecture Design",
+        description: "We design a scalable architecture that works efficiently across platforms.",
+      },
+      {
+        title: "UI/UX Design",
+        description: "Our designers create interfaces that adapt seamlessly to each platform.",
+      },
+      {
+        title: "Development",
+        description: "We build your app using React Native for optimal cross-platform performance.",
+      },
+      {
+        title: "Platform-Specific Testing",
+        description: "We thoroughly test your app on each target platform.",
+      },
+      {
+        title: "Deployment & Support",
+        description: "We handle deployment to all platforms and provide ongoing support.",
+      },
+    ],
+  },
 ]
-

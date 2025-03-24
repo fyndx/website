@@ -105,10 +105,10 @@ export default function ServicePage({ params }: Props) {
             </div>
           </div>
 
-          <div className="bg-gray-50 rounded-2xl p-8 mb-16">
+          {/* <div className="bg-gray-50 rounded-2xl p-8 mb-16">
             <h2 className="text-2xl font-bold mb-6 text-center text-gray-900">Pricing Options</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {Object.entries(service.pricing).map(([key, value]) => (
+              {Object.entries(service?.pricing || {}).map(([key, value]) => (
                 <div
                   key={key}
                   className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300"
@@ -119,7 +119,7 @@ export default function ServicePage({ params }: Props) {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
