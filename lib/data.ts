@@ -323,6 +323,174 @@ export const services = [
     ],
   },
   {
+    id: "consulting-and-strategy",
+    title: "Consulting & Strategy",
+    shortDescription: "Expert guidance for your mobile app development journey.",
+    description:
+      "Our consulting and strategy service provides expert guidance to help you make informed decisions about your mobile app development journey. We analyze your business needs, market conditions, and technical requirements to create a comprehensive roadmap for success.",
+    icon: "💡",
+    image: "/placeholder.svg?height=600&width=800",
+    benefits: [
+      "Expert insights into mobile app development",
+      "Data-driven decision making",
+      "Risk mitigation strategies",
+      "Clear project roadmap and timeline",
+    ],
+    // pricing: {
+    //   starter: {
+    //     price: "$3,000+",
+    //     description: "Basic consultation and strategy session",
+    //   },
+    //   professional: {
+    //     price: "$8,000+",
+    //     description: "Comprehensive strategy development and planning",
+    //   },
+    //   enterprise: {
+    //     price: "Custom",
+    //     description: "Long-term strategic partnership and consulting",
+    //   },
+    // },
+    featured: false,
+    process: [
+      {
+        title: "Initial Assessment",
+        description: "We evaluate your current situation, goals, and challenges to understand your needs.",
+      },
+      {
+        title: "Market Analysis",
+        description: "We analyze market trends, competition, and opportunities in your industry.",
+      },
+      {
+        title: "Strategy Development",
+        description: "We create a detailed strategy aligned with your business objectives.",
+      },
+      {
+        title: "Technology Planning",
+        description: "We recommend the best technical solutions and architecture for your needs.",
+      },
+      {
+        title: "Risk Assessment",
+        description: "We identify potential risks and develop mitigation strategies.",
+      },
+      {
+        title: "Roadmap Creation",
+        description: "We deliver a comprehensive roadmap for implementation and growth.",
+      },
+    ],
+  },
+  {
+    id: "ui-ux-design",
+    title: "UI/UX Design",
+    shortDescription: "Create intuitive and engaging user experiences for your app.",
+    description:
+      "Our UI/UX design service focuses on creating beautiful, intuitive interfaces that delight users while achieving your business goals. We combine aesthetic appeal with functional design to deliver exceptional user experiences that drive engagement and retention.",
+    icon: "🎨",
+    image: "/placeholder.svg?height=600&width=800",
+    benefits: [
+      "Intuitive and user-friendly interfaces",
+      "Increased user engagement and retention",
+      "Consistent design language across platforms",
+      "Accessibility-focused design approach",
+    ],
+    // pricing: {
+    //   starter: {
+    //     price: "$8,000+",
+    //     description: "Basic UI/UX design package",
+    //   },
+    //   professional: {
+    //     price: "$15,000+",
+    //     description: "Advanced design with custom interactions",
+    //   },
+    //   enterprise: {
+    //     price: "Custom",
+    //     description: "Comprehensive design systems and complex workflows",
+    //   },
+    // },
+    featured: false,
+    process: [
+      {
+        title: "User Research",
+        description: "We conduct research to understand your users' needs and behaviors.",
+      },
+      {
+        title: "Information Architecture",
+        description: "We organize content and features in a logical, user-friendly structure.",
+      },
+      {
+        title: "Wireframing",
+        description: "We create low-fidelity designs to establish layout and functionality.",
+      },
+      {
+        title: "Visual Design",
+        description: "We develop the visual language and create high-fidelity designs.",
+      },
+      {
+        title: "Prototyping",
+        description: "We build interactive prototypes to test user flows and interactions.",
+      },
+      {
+        title: "Design System",
+        description: "We create a comprehensive design system for consistent implementation.",
+      },
+    ],
+  },
+  {
+    id: "maintenance-and-support",
+    title: "Maintenance & Support",
+    shortDescription: "Keep your app running smoothly with ongoing maintenance and support.",
+    description:
+      "Our maintenance and support service ensures your application continues to perform optimally after launch. We provide regular updates, bug fixes, and technical support to keep your app secure, stable, and up-to-date with the latest platform changes.",
+    icon: "🛠️",
+    image: "/placeholder.svg?height=600&width=800",
+    benefits: [
+      "Regular updates and security patches",
+      "Proactive performance monitoring",
+      "Quick response to technical issues",
+      "Platform compatibility maintenance",
+    ],
+    // pricing: {
+    //   starter: {
+    //     price: "$1,500+/month",
+    //     description: "Basic maintenance and support package",
+    //   },
+    //   professional: {
+    //     price: "$3,000+/month",
+    //     description: "Advanced support with priority response",
+    //   },
+    //   enterprise: {
+    //     price: "Custom",
+    //     description: "24/7 dedicated support and maintenance",
+    //   },
+    // },
+    featured: false,
+    process: [
+      {
+        title: "Monitoring Setup",
+        description: "We implement monitoring tools to track app performance and issues.",
+      },
+      {
+        title: "Regular Updates",
+        description: "We perform regular updates to maintain security and compatibility.",
+      },
+      {
+        title: "Bug Fixes",
+        description: "We quickly identify and resolve any issues that arise.",
+      },
+      {
+        title: "Performance Optimization",
+        description: "We continuously optimize app performance based on usage data.",
+      },
+      {
+        title: "Platform Updates",
+        description: "We ensure compatibility with new OS versions and devices.",
+      },
+      {
+        title: "Technical Support",
+        description: "We provide ongoing technical support and consultation.",
+      },
+    ],
+  },
+  {
     id: "cross-platform-development",
     title: "Cross Platform Development",
     shortDescription: "Build once, deploy everywhere with React Native.",
